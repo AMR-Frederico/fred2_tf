@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+build/fred2_tf/fred2_tf.egg-info/PKG-INFO
+build/fred2_tf/fred2_tf.egg-info/SOURCES.txt
+build/fred2_tf/fred2_tf.egg-info/dependency_links.txt
+build/fred2_tf/fred2_tf.egg-info/entry_points.txt
+build/fred2_tf/fred2_tf.egg-info/requires.txt
+build/fred2_tf/fred2_tf.egg-info/top_level.txt
+build/fred2_tf/fred2_tf.egg-info/zip-safe
+fred2_tf/__init__.py
+fred2_tf/imu_tf_node.py
+resource/fred2_tf
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
