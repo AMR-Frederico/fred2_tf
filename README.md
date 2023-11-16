@@ -3,6 +3,15 @@
 
 <!-- TODO: put Fred currente tf tree -->
 
+## The package structure
+### Nodes
+- `imu_tf_node`: static transform for imu sensor
+
+### Topics
+- `/tf`:  
+    - **Type:** `tf2_msgs/msg/TFMessage`
+    - **Publishers:** `imu_tf_node`
+
 ## Transform System
 In ROS (Robot Operating System), "TF" refers to "Transformations" or "Transform Frame." It is a system used to track and manage transformations between different coordinate systems in a robotic environment. A coordinate system is associated with each part of the robot and objects in the environment.
 
